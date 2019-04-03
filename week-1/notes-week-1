@@ -1,0 +1,11 @@
+The internet is the infrastructure that hold the connections together. It's just wires.
+World wide web: the standard of how to get and send pages.
+
+Clients vs. Servers
+clients do `GET`s (you, as a user, on a macbook, in chrome, make a GET) and do a REQUEST
+Servers give me back a RESPONSE 
+(check out the network tab in inspect)
+
+Status codes: 200 is gravy. 400's are not found or forbidden. 500's are system or server errors. 
+
+<> "Tags"

@@ -1,0 +1,19 @@
+APIs:
+
+FE --> kicks off data request --> BE --> Talks to the Data Base --> gets the info from it --> reutrns back to the front end
+
+APIs are the way that we get data from a database in a cleaner, safer way:
+1. we don't want or need direct access bc of sensitive data 
+2. back ends are middlemen for front end and the data base
+
+Your BE's build APIs off MongoDB, btw
+
+HOW IT WORKS:
+1. Go to a website that calls an API
+2. Kick off an API request
+3. Some backend accepts the API request
+--- gets or creates data ---
+4. Back end talks to database to fulfill the request
+--- gets or creates data ---
+5. DB gives results back to the backend
+6. Front end gets results back from backend

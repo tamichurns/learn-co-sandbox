@@ -1,0 +1,69 @@
+
+.section-class {
+  background: black;
+  height: 400px;
+  margin-bottom: 8px;
+}
+
+.class-1 {
+  background: black;
+  color: white;
+  position: relative; /*starting position is where the default starting position is*/
+  top: 16px; /* only either top/bottom, or either left/right can be defined */
+  left: 16px;
+}
+
+.class-2 {
+  background: gray;
+  position: fixed;
+  /* absolute 
+  position: absolute; <- takes the starting position at the x/y 0 position*/
+  top: 50px;
+  left: 200px;
+}
+
+
+/*
+@media (min-width: 375px) {
+.class-1{
+  background-color: black;
+  color: mistyrose;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  }  
+}
+
+@media (min-width: 768px) {
+.class-1{
+  background-color: black;
+  color: mistyrose;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  }  
+}
+
+@media (min-width: 1024px) {
+.class-1{
+  background-color: mistyrose;
+  color: black;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 56px;
+  height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+}
+
+*/

@@ -1,0 +1,15 @@
+well you had more notes here. check github
+
+mk dir -p newfolder/newfile makes a new directory and file at the same time
+-----
+
+p#introduction (parent selector)
+h1, h2 (multiple selector)
+article p (descendent - any p tag inside of an article)
+article > p (child - only the p directly underneath parent tag)
+* (universal - change it all)
+input[type="text"] (attribute. only affects the inputs with "text" attribute applied)
+a: hover {} (pseudo selector) 
+
+
+

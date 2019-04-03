@@ -1,0 +1,25 @@
+/* CSS is read top to bottom:
+  ids trump all. but there should only be 1 to a page.
+  classes trump tags selectors
+  Tags are bottom (ie. p, a, h1, etc.)
+  
+  ids are #
+  . are classes
+*/
+
+#grey-paragraph {
+  color: grey;
+  font-family: 'Montserrat', sans-serif; 
+}
+ 
+.green-paragraph{
+  color: green;
+} 
+
+  p {
+    color: mistyrose;
+    font-size: 48px;
+    font-family: 'Montserrat', 'Helvetic Neue', 'Arial'; 
+    font-weight: 900;
+    text-decoration: underline;
+  }
