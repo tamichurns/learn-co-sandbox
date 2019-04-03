@@ -1,8 +1,6 @@
 fetch('https://api.github.com/users/tamichurns')
-.then((data) => {return data.json()}
+.then((data) => {return data.json()})
 .then((json) => {console.log(dataJson)})
-
-/// fetch needs URL where you're getting the data from 
 
 console.log('hi')
 
