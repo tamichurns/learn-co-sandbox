@@ -1,6 +1,6 @@
 fetch('https://api.github.com/users/tamichurns')
 .then((data) => {return data.json()})
-.then((json) => {console.log(dataJson)})
+.then((json) => {console.log(json)})
 
 console.log('hi')
 
